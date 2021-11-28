@@ -1,5 +1,7 @@
 <script>
   import Counter from "$lib/Counter.svelte";
+  import * as S from "y-websocket"
+  S.test();
 </script>
 
 <svelte:head>
